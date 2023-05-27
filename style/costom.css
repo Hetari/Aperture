@@ -199,6 +199,10 @@ footer p {
 }
 
 @media (max-width : 600px) {
+    #first-screen {
+        background-position: center;
+    }
+
     .logo {
         width: 500%;
         position: relative;
@@ -208,6 +212,7 @@ footer p {
     .aperture {
         position: absolute;
         width: 350%;
+        right: 10%;
     }
 
     .aperture h1 {
