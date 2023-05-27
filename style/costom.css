@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: "poppins";
+    font-weight: 400;
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bolder;
+}
+
+#first-screen {
+    font-family: "poppins";
+    background-image: url("../img/filmmaker.jpg");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+}
+
+.logo {
+    width: 200%;
+}
+
+.lead {
+    font-weight: light;
+    font-size: 1.2rem;
+}
+
+.red {
+    color: #d00000;
+}
+
+.started:hover {
+    color: #d00000;
+}
+
+.started {
+    background: #d00000;
+    color: white;
+    opacity: 1;
+    transform: translate(0)
+}
+
+
+#starting {
+    background-color: #fff;
+    padding: 7% 15% 0 15%;
+    padding-bottom: 0;
+}
+
+.pic {
+    padding-bottom: 1rem;
+}
+
+.break {
+    margin: 0 2rem 3rem 2rem;
+}
+
+#focus {
+    color: #000;
+    background-color: #d00000;
+    text-align: center;
+}
+
+#focus h1 {
+    color: white;
+    line-height: 1.5;
+}
+
+#focus img {
+    width: 25%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item h1 {
+    padding-bottom: 25px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.price {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.cards {
+    padding: 0 10%;
+}
+
+.row {
+    width: 100%;
+}
+
+.free-btn {
+    --bs-btn-color: #d00000;
+    --bs-btn-border-color: #d00000;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #d00000;
+    --bs-btn-hover-border-color: #d00000;
+}
+
+.pro-btn {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #d00000;
+    --bs-btn-border-color: #d00000;
+    --bs-btn-hover-bg: #af0000;
+    --bs-btn-hover-border-color: #fff;
+}
+
+.ent-card {
+    border-color: #d00000;
+    background-color: #d00000;
+    color: white;
+}
+
+.table-responsive {
+    padding: 0 10%;
+}
+
+.bi {
+    color: #000;
+}
+
+@media (max-width : 991px) {
+    .logo {
+        width: 300%;
+    }
+
+    .header {
+        margin-bottom: 10%;
+    }
+}
+
+#cta {
+    background-color: #d00000;
+    color: #fff;
+}
+
+.log-btn {
+    font-weight: bold;
+    --bs-btn-color: #000;
+    --bs-btn-bg: #fff;
+    --bs-btn-border-color: #fff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #000;
+    --bs-btn-hover-border-color: #b00000;
+}
+
+left-btn {
+    padding-left: 1000px;
+}
+
+.pad {
+    padding-bottom: 100px;
+}
+
+footer p {
+    color: rgb(126, 126, 126);
+    margin-bottom: 1%;
+}
+
+.icon {
+    color: rgb(126, 126, 126);
+    padding-top: 10%;
+    margin: 5px 20px;
+}
+
+@media (max-width : 850px) {
+    .logo {
+        width: 300%;
+    }
+
+    .aperture h1 {
+        padding-left: 10%;
+    }
+
+    .header {
+        margin-bottom: 10%;
+    }
+}
+
+@media (max-width : 767px) {
+    .logo {
+        width: 500%;
+    }
+
+    .aperture {
+        text-align: right;
+    }
+}
+
+@media (max-width : 600px) {
+    .logo {
+        width: 500%;
+        position: relative;
+        left: 250%;
+    }
+
+    .aperture {
+        position: absolute;
+        width: 350%;
+    }
+
+    .aperture h1 {
+        padding-left: 50%;
+    }
+
+    footer p {
+        padding-top: 15%;
+    }
+}
+
+.jumbotron {
+    margin-bottom: 0 !important;
+}
+
+.atlas-cta {
+    border-radius: 22px !important;
+    padding: 12px 30px !important;
+    font-weight: 700;
+    transition: .2s ease-in-out !important;
+}
