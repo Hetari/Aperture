@@ -134,6 +134,7 @@ h6 {
     #first-screen {
         background-position: center;
     }
+    
     .logo {
         width: 300%;
     }
@@ -259,19 +260,28 @@ footer p {
 }
 
 
-@media (max-width : 350px) {
+@media (max-width : 370px) {
+    #first-screen {
+        background-position: center;
+    }
     .logo {
         width: 3000%;
     }
 }
 
 @media (max-width : 335px) {
+    #first-screen {
+        background-position: center;
+    }
     .logo {
         width: 5000%;
     }
 }
 
 @media (max-width : 320px) {
+    #first-screen {
+        background-position: center;
+    }
     .logo {
         width: 10000%;
     }
