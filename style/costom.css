@@ -131,6 +131,9 @@ h6 {
 }
 
 @media (max-width : 991px) {
+    #first-screen {
+        background-position: center;
+    }
     .logo {
         width: 300%;
     }
